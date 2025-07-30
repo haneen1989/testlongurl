@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: windows-latest
-
+    needs: build
     steps:
       - name: Create test file
         run: |
