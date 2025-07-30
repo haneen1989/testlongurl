@@ -20,7 +20,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'haneenwinnetapp'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8399347D13D84F358D4EAB3A133B17A6 }}
           package: publish
           target-path: site\service
