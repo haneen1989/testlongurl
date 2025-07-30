@@ -53,5 +53,5 @@ jobs:
           app-name: 'haneenwinnetapp'
           slot-name: 'Production'
           package: .
-          target-path: \home\site\service
+          target-path: ..\..\service
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8399347D13D84F358D4EAB3A133B17A6 }}
