@@ -22,5 +22,5 @@ jobs:
           app-name: 'haneenwinnetapp'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8399347D13D84F358D4EAB3A133B17A6 }}
           package: publish
-          target-path: \home\site\services
+          target-path: home\site\services
           clean: false
